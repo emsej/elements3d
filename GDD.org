@@ -1,0 +1,109 @@
+#+TITLE: GDD
+
+* Game Design
+  /Note/: "he" is used here as a gender-neutral pronoun.
+** Overview
+/Veto3D/ (perhaps not the final name, although the 3D part should stay
+for the heck of it) is a dungeon crawler RPG wherein the player steers
+a character through diverse worlds in an attempt to fight and destroy
+the four Elements that enslaved humanity. All the action takes place
+in a 3D raycasted perspective. The game operates on a turn-based
+exploration and combat system. Using the keyboard and/or mouse, the
+player explores and interacts with the world. The character faces
+challenges in the form of hostile monsters, traps, riddles and
+puzzles. Beneficial weapons, allies are spread throughout levels, as
+well as character upgrades acquired after defeating a boss aid the
+player in his quest.
+
+A player has no choice in race, class, trait, or even name or look of
+the character. The success of the player depends solely on his skill
+and strategy. The player's character, however, will develop certain
+abilities after defeating an Element, that aid him in battle.
+** Plot and Setting
+/Veto3D/ is set in a fantastic, surreal world, with many elements of
+diverse time periods. The world is on the brink of collapsing under
+its own weight, after a human (the first Lugal) created the four
+Elements that enslaved humanity. The Elements casted a "magical spell"
+that destroys every human from inside out, starting with their
+mentality and ending on their physique. With the spell, the Elements
+assured that they would be defended by the very thing they
+enslaved---humans. Fortunately, some humans can see the enslavement of
+the Elements, and devise plans to stop them---alas, those plans never
+work out.
+
+The main character, known only as the Armored One, is a human that
+externalized his psychological enslavement, and saw through the work
+of the Elements. The player's character has just woken up from a tomb
+in a crypt, after he was put there into eternal sleep by the first
+Lugal thousands of years ago. The character is set out to destroy the
+four Elements and the first Lugal that orchestrates the doomed world
+he has created.
+
+The world of /Veto3D/ will have diverse tones. The first levels will
+be set in post-apocalyptic Farmlands, with radiated, diseased hostiles
+and poor, frail humans in scattered camps. The Farmlands are riddled
+with toxic waste, contamination and overall slow, painful death. Those
+levels soon---after the boss fight---lead to the Caves; beautiful and
+artsy natural formations filled to the brim with shamans, spirits, and
+the possessed. The Caves are also home to high-tech underground labs
+(a secret level), filled with robots, cyborgs and grey goo. Soon after
+the caves, the character is welcomed to a circus-like amusement park
+full of traps, riddles, and funny enemies like clowns. The amusement
+park leads to the Capital---a contemporary city that's the last
+bastion of resistance for the final Element---riddled with riot
+police, mechas and other dumb stuff like that (NOTE: perhaps we should
+be more original here?) The last, final but unknown until the end area
+is the old-growth forest, home to the last, hidden Element and the
+first Lugal.
+
+The first Lugal is the main antagonist of the game---he is the one
+that put forward the suffering of all humans. He has a direct
+connection with the Armored One, commonly teleporting the player into
+the Void, where he telepathically communicates with the character,
+telling him about why he did what he did, why it is needed, and why
+the Armored One can't stop him and should join him.
+
+The player's choices impact the world around him---killing certain
+innocents, for example, can oftentimes lead to the bad ending; not
+befriending certain people can make the player unable to defeat the
+final boss, making the ending a neutral one.
+** Gameplay
+A walk-through of an example game session follows:
+
+After starting up the game, the opening cinematic sequence segues into
+the main menu screen. The options provided are: /New Game/, /Load
+Game/, /Options/, and /Quit/. /New Game/ allows the player to start
+from the beginning of the game, allowing him to chose a difficulty
+level. /Load Game/ allows the player to load a game he has saved
+beforehand. The /Options/ selection gives access to an array of sound
+and configuration options. /Quit/ presents the player with an "Are you
+sure you want to quit? (Y/N)" screen, although with diverse messages
+that sometimes mock the player for quitting.
+
+The player is thrown right into the action, waking up in an open tomb
+surrounded by two guards that immediately take attention of the
+player, commencing conversation. The player then decides whether or
+not to take a peaceful approach or attack right off. After the
+encounter, the player is free to explore the level. The player moves
+the character forward or backward using W and S, and rotates the view
+by 90 degrees using A and D. Clicking on items or characters, or even
+walls in view will let you examine them, use, talk to, or pick up.
+
+When exploring the dungeon, the player stumbles upon NPCs, items, and
+secrets that all can be interacted with. Everything (including NPCs)
+in the world can be interacted by examining, which gives a detailed
+description of the object in question. Most NPCs can be talked to,
+which gives you a chance to get information, buy or sell items, and
+perhaps be threatened or told to leave. They can also be attacked
+without reason. Items can be examined or picked up. Secrets can be
+examined or activated. Traps can be examined, disarmed, or activated
+on purpose.
+
+Picked up items are put into the character's inventory, allowing him
+to equip, use, and examine the item. Of course, to make hoarding and
+mass-selling a thing of the past, the inventory has a very small
+holding space, of perhaps a maximum of 16 items.
+
+If attacking (or attacked), the battle screen is shown. The battle
+system is an Active Time Battle system.
+* Development
